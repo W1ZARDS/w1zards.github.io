@@ -696,7 +696,7 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('../images/w1zards_1200x444.jpg');
+		background: #272727 url('../images/w1zards_1200x444.jpg');
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -705,8 +705,8 @@
 
 		#banner header
 		{
-			background-color: #272727;
-			background-color: rgba(39,39,39,0.98);
+			background-color: #455046;
+			background-color: rgba(69,80,70,0.88);
 		}
 
 			#banner header h2
