@@ -12,25 +12,7 @@
 						{% assign current = page.url | downcase | split: '/' %}
 						<li {% if current[1] == 'phreakazoid.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/phreakazoid.html">phreakazoid</a></li>
 						<li {% if current[1] == 'vandalismus.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/vandalismus.html">Vandalismus</a></li>
-						<li>
-							<a href="">Dropdown</a>
-							<ul>
-								<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-								<li><a href="#">Magna phasellus</a></li>
-								<li><a href="#">Etiam dolore nisl</a></li>
-								<li>
-									<a href="">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Veroeros feugiat</a></li>
-										<li><a href="#">Nisl sed aliquam</a></li>
-										<li><a href="#">Dolore adipiscing</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
-							</ul>
-						</li>
+						<li {% if current[1] == '/blog/' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog/">Blog</a></li>
 					</ul>
 				</nav>
 
